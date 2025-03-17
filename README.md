@@ -73,7 +73,11 @@ jieba.add_word()：用于添加自定义词语到 jieba 词典中，提高分词
 关系图：在word_relation_graph.html文件中以图形形式展示高频词语间的简单关系。
 
 词云：生成wordcloud.png图片，展示文本中词语的频率分布。
+
 实体统计保存：
+
 人名统计：将识别出的人名保存到person_names.txt文件，内容为 “赵先生”。
+
 地名统计：将识别出的地名保存到place_names.txt文件，内容为 “北京”。
+
 武器统计：将识别出的武器相关词汇保存到weapon_names.txt文件，内容为 “刀剑”。
